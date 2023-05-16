@@ -4,7 +4,7 @@ import "../App.css"
 
 const Form = () => {
 
-    //title ra description ko value hm=amle setform ma store garna parxa ani formval ma automatic aauxa.
+    //title ra description ko value hamle setform ma store garna parxa ani formval ma automatic aauxa.
     const [formVal, setformVal] = useState({});
     const [apidata, setApidata] = useState([{}]);
 
@@ -64,10 +64,10 @@ const Form = () => {
                 onSubmit={sendData}
                 className="form"
             >
-                <input className="input" type="text" placeholder="Type something here" name="title" onChange={manageData} />
+                <input className="input" type="text" placeholder="Enter the title" name="title" onChange={manageData} />
                 <br />
                 <br />
-                <input className="input" type="text" placeholder="description here" name="description" onChange={manageData} />
+                <input className="input" type="text" placeholder="Enter the description" name="description" onChange={manageData} />
                 <br />
                 <br />
                 <input type="submit" className="button" />
